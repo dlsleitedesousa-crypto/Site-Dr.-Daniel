@@ -1,0 +1,11 @@
+# Backups e configurações privadas
+*.zip
+*.sql
+*.sql.gz
+.env
+.env.*
+!.env.example
+
+# Arquivos locais
+.DS_Store
+Thumbs.db

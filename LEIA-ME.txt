@@ -1,0 +1,30 @@
+SITE DO DR. DANIEL LEITE DE SOUSA — INSTRUÇÕES PARA HOSTINGER
+
+1. Entre no painel da Hostinger (hPanel).
+2. Abra o Gerenciador de Arquivos da hospedagem.
+3. Entre na pasta public_html.
+4. Envie o arquivo ZIP e escolha “Extrair”.
+5. Mova o conteúdo da pasta site-dr-daniel-hostinger para a raiz de public_html.
+6. O arquivo index.html deve ficar diretamente dentro de public_html.
+
+Estrutura esperada:
+public_html/
+  index.html
+  favicon.svg
+  robots.txt
+  sitemap.xml
+  assets/
+    style.css
+    dr-daniel-clinica.webp
+    og.png
+
+O site é estático e não precisa de banco de dados, PHP ou instalação adicional.
+Os links de WhatsApp já estão configurados para cada cidade.
+
+OTIMIZAÇÃO PARA O GOOGLE
+- O site inclui título e descrição descritivos, marcação de dados estruturados,
+  imagem otimizada, conteúdo visível sobre especialidades e arquivo robots.txt.
+- O sitemap e o endereço canônico estão configurados para:
+  https://drdanielleite.com.br/
+- Após publicar, cadastre o domínio no Google Search Console e envie:
+  https://drdanielleite.com.br/sitemap.xml
