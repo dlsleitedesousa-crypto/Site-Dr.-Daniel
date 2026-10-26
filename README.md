@@ -15,6 +15,12 @@ Importado do backup `_drdanielleite.com.br.zip` em 25/10/2026. O conteúdo de `p
 
 Abra `index.html` no navegador para visualizar o site localmente. Não há dependências, etapa de compilação ou banco de dados.
 
-Para publicar alterações, envie os arquivos do site para `public_html/` na Hostinger, mantendo a estrutura de `assets/`. O vínculo com o GitHub não configura publicação automática na hospedagem.
+## Publicação automática
+
+A Hostinger está conectada ao repositório `dlsleitedesousa-crypto/Site-Dr.-Daniel`, com implantação automática da branch `main` no diretório `public_html/` de https://drdanielleite.com.br/.
+
+Para publicar alterações, faça commit e push para `main`. Acompanhe o resultado em Hostinger → site → Avançado → GIT ou Implantações. A primeira implantação foi concluída em 25/10/2026.
+
+Faça as alterações neste repositório: edições diretas pelo gerenciador de arquivos podem ser sobrescritas na próxima implantação.
 
 O backup original permanece em Downloads. Não inclua backups, credenciais ou arquivos privados no Git.
